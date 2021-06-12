@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GourmetJn">
-        <activity android:name=".FoodList"></activity>
+        <activity android:name=".Dinn2"></activity>
+        <activity android:name=".Dinn1" />
+        <activity android:name=".Lun2" />
+        <activity android:name=".Lun1" />
+        <activity android:name=".Bf2" />
+        <activity android:name=".Bf1" />
+        <activity android:name=".Choice" />
+        <activity android:name=".Foodlist" />
+        <activity android:name=".FoodList" />
         <activity
             android:name=".foodList"
             android:label="@string/title_activity_food_list"

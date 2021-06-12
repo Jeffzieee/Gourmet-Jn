@@ -3,9 +3,9 @@ package com.example.gourmetjn
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class FoodList : AppCompatActivity() {
+class Lun2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_food_list)
+        setContentView(R.layout.activity_lun2)
     }
 }
