@@ -105,4 +105,9 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="register_now">REGISTER NOW</string>
+    <string name="login">LOGIN</string>
+    <string name="email_id">Email id</string>
+    <string name="new_to_gourment_jn_n_create_an_account">New to Gourment Jn. ? \n Create an Account</string>
+    <string name="dosa_50_annabhavan">Dosa ₹50 - Annabhavan</string>
 </resources>

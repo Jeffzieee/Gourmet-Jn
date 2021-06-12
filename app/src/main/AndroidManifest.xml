@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GourmetJn">
-        <activity android:name=".Dinn2"></activity>
+        <activity android:name=".OrderProgress"></activity>
+        <activity android:name=".Dinn2" />
         <activity android:name=".Dinn1" />
         <activity android:name=".Lun2" />
         <activity android:name=".Lun1" />
