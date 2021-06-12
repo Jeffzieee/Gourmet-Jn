@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440795476563",
+    "project_id": "gourmet-jn",
+    "storage_bucket": "gourmet-jn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440795476563:android:47d186f27d239c98a7cca6",
+        "android_client_info": {
+          "package_name": "com.example.gourmetjn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440795476563-1fsqeciq3mo7ech6s50vckd2r3l5pgj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfD01ld0GAc1T_deBNRyyMnnwR_I1vbGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440795476563-1fsqeciq3mo7ech6s50vckd2r3l5pgj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

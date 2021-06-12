@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Login">
+
+  <Button
+      android:id="@+id/btnREG"
+      android:layout_width="200dp"
+      android:layout_height="52dp"
+      android:background="@drawable/btn_bg"
+      android:text="REGISTER NOW"
+      android:textColor="#070707"
+      android:textSize="18sp"
+      app:backgroundTint="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.848"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.754" />
+
+  <Button
+      android:id="@+id/btnLogin"
+      android:layout_width="200dp"
+      android:layout_height="52dp"
+      android:background="@drawable/btn_bg"
+      android:text="LOGIN"
+      android:textColor="#070707"
+      android:textSize="24sp"
+      app:backgroundTint="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.473"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.475" />
+
+  <EditText
+      android:id="@+id/mail2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:drawable/gallery_thumb"
+      android:drawableLeft="@android:drawable/ic_dialog_email"
+      android:ems="10"
+      android:hint="  Email id"
+      android:inputType="textPersonName"
+      android:padding="10dp"
+      android:paddingLeft="10dp"
+      android:paddingRight="10dp"
+      android:paddingBottom="10dp"
+      android:textColor="@color/white"
+      android:textColorHint="#FFFFFF"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.191" />
+
+  <EditText
+      android:id="@+id/password3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@android:drawable/gallery_thumb"
+      android:drawableLeft="@android:drawable/ic_lock_lock"
+      android:ems="10"
+      android:hint="  Password"
+      android:inputType="textPersonName"
+      android:padding="10dp"
+      android:paddingLeft="10dp"
+      android:paddingRight="10dp"
+      android:paddingBottom="10dp"
+      android:textColor="@color/white"
+      android:textColorHint="#EFEBEB"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.34" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="New to Gourment Jn. ? \n Create an Account"
+      android:textColor="@color/white"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.006"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.648" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
