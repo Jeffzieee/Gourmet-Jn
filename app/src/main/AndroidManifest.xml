@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gourmetjn" >
+    package="com.example.gourmetjn">
 
     <application
         android:allowBackup="true"
@@ -8,16 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GourmetJn" >
+        android:theme="@style/Theme.GourmetJn">
+        <activity android:name=".FoodList"></activity>
+        <activity
+            android:name=".foodList"
+            android:label="@string/title_activity_food_list"
+            android:theme="@style/Theme.GourmetJn.NoActionBar" />
         <activity
             android:name=".Nav"
             android:label="@string/title_activity_nav"
-            android:theme="@style/Theme.GourmetJn.NoActionBar" >
-        </activity>
+            android:theme="@style/Theme.GourmetJn.NoActionBar" />
         <activity android:name=".actual" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".Login" />
-        <activity android:name=".Welcome" >
+        <activity android:name=".Welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
